@@ -76,7 +76,7 @@ Khi người dùng yêu cầu dev web, **BẮT BUỘC** tuân theo quy trình:
 ```css
 aside { float: left; width: 20%; }
 main { float: right; width: 80%; }
-main::after { clear: both; content: ""; display: table; }
+
 ```
 
 ## 5. HƯỚNG DẪN XỬ LÝ LỖI (DEBUGGING)

@@ -1,0 +1,13 @@
+đây là quy tắc code mà giảng viên yeu cầu khi thiết kế web :
+[Promt--]
+
+
+đây là html mẫu các bài giảng vien giải [html1] [html2]
+
+bây giờ viết html cho toi trang web co layout như hình
+ và theo yêu cầu của giảng viên
+
+
+đây là các css mẫu của giảng viên từng giải[css1] [css20]
+
+bây giờ viết css

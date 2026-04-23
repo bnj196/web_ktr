@@ -1,0 +1,174 @@
+/* --- THIẾT LẬP CHUNG --- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: justify;
+    font-family: Consolas, 'Courier New', Courier, monospace; /* Theo mẫu 1 */
+}
+
+body {
+    /* Thay ảnh nền trà sữa của bạn vào đây */
+    background: url(../img/bg_trasua.jpg) no-repeat fixed;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    padding: 2% 10%; /* Tạo lề hai bên như mẫu giảng viên */
+}
+
+/* --- VÙNG 1: HEADER (Banner & Đăng nhập) --- */
+header {
+    width: 100%;
+    height: 15%; /* Giảng viên thường ấn định chiều cao cố định */
+    float: left;
+    margin-bottom: 1%;
+}
+
+header img {
+    width: 100%; /* Banner trải dài */
+    height: 80%;
+    object-fit: cover;
+}
+
+header div {
+    text-align: right;
+    padding-top: 0.5%;
+}
+
+header div a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+/* --- VÙNG 2: NAV (Menu ngang & Tìm kiếm) --- */
+nav {
+    width: 100%;
+    height: 8%;
+    float: left;
+    border-bottom: solid 3px #5D4037; /* Màu nâu trà sữa */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.8);
+}
+
+nav div {
+    width: 60%;
+}
+
+nav div a {
+    text-decoration: none;
+    color: black;
+    margin-right: 5%;
+    font-weight: 900;
+}
+
+nav div a:hover {
+    color: #795548;
+}
+
+nav form {
+    width: 30%;
+    text-align: right;
+}
+
+nav form input {
+    width: 80%;
+    padding: 5px;
+    border-radius: 15px;
+    border: solid 1px gray;
+}
+
+/* --- VÙNG 3: ASIDE & MAIN (Bố cục chính) --- */
+aside {
+    width: 20%;
+    height: 50%;
+    float: left;
+    margin-top: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+aside a {
+    text-decoration: none;
+    color: #333;
+    background: #fff;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+}
+
+aside a:hover {
+    background: #5D4037;
+    color: white;
+}
+
+main {
+    width: 78%;
+    height: 50%;
+    float: right;
+    margin-top: 2%;
+}
+
+/* Ảnh sản phẩm tiêu biểu trên cùng của main */
+main section {
+    width: 100%;
+    height: 50%;
+    margin-bottom: 2%;
+}
+
+main section img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+/* Vùng chứa 3 sản phẩm nội dung 1,2,3 */
+.container-content {
+    width: 100%;
+    height: 48%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.noidung {
+    width: 32%;
+    height: 100%;
+    text-align: center;
+}
+
+.noidung img {
+    width: 100%;
+    height: 60%;
+    border-radius: 10px;
+}
+
+.noidung h3 {
+    font-size: 1em;
+    padding: 5% 0;
+}
+
+/* --- VÙNG 4: FOOTER --- */
+footer {
+    width: 100%;
+    height: 20%;
+    float: left;
+    margin-top: 2%;
+    border-top: solid 2px #5D4037;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1%;
+}
+
+footer div {
+    width: 45%;
+}
+
+footer h4 {
+    margin-bottom: 10px;
+}
